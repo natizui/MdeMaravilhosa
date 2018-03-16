@@ -195,10 +195,12 @@ p.destaque {
 .grid > div > div {
     background: url(../../img/fotos-criadoras.png);
     display: flex;
+    /* Muito legal o flex end, nao conhecia. */
     align-items: flex-end;
     justify-content: center;
     width: 70px;
     height: 70px;
+    /* outra coisa muito util que eu nao conhecia kkk */
     overflow: auto;
 }
 .grid > div {
@@ -216,6 +218,7 @@ p.destaque {
     margin-bottom: 5vh;
     max-width: 80%;
     display: grid;
+    /* obrigada rainha do grid, preciso de um curso de grid */
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
     grid-column-gap: 5%;
@@ -329,3 +332,4 @@ footer .principal {
     }
 }
 /*#endregion*/
+/* percebi que utilizar vh é bem melhor do que px ou % */
